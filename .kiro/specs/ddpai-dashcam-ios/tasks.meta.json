@@ -1,0 +1,538 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create the Xcode project skeleton and layered folder structure": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219672883
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219686252
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220656280
+      }
+    ],
+    "1.2 Define core data model types": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673389
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220668037
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220833449
+      }
+    ],
+    "2.1 Implement duration/size formatting and clip ordering/filtering functions": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673448
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220841403
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221103613
+      }
+    ],
+    "3.1 Implement model-support, retry, clamping, source-selection, progress, queue, interrupt/resume, storage, and settings decision functions": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673480
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220841599
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221105486
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221143918
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221333606
+      }
+    ],
+    "4. Checkpoint - pure logic validated": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673512
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222408984
+      }
+    ],
+    "5.1 Define communication protocols and wire types": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673538
+      },
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220841686
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221106459
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221145165
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221334573
+      }
+    ],
+    "5.2 Implement the DDPAI `CameraProtocolAdapter`": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673569
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221344830
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221630822
+      }
+    ],
+    "5.3 Implement `URLSessionHTTPControlClient` with bounded timeouts and ranged download": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673596
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222409799
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222679687
+      }
+    ],
+    "5.4 Implement `AVFoundationLiveStreamClient`": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673621
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222410223
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222680899
+      }
+    ],
+    "5.5 Implement in-memory mock adapter and clients for tests": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673647
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221650390
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222359723
+      }
+    ],
+    "6.1 Implement the GRDB schema and `LibraryStore`": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673672
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221345602
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221631657
+      }
+    ],
+    "7.1 Implement `ConnectionManaging` with session, timeout, model check, and reconnection": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673699
+      },
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222689558
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224121853
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224129206
+      }
+    ],
+    "8.1 Implement `LivePreviewing` observing Connection_State": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673729
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224136454
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224740411
+      }
+    ],
+    "9.1 Implement `MediaBrowsing` with retrieval, ordering, filtering, and flags": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673753
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224137887
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224742812
+      }
+    ],
+    "10.1 Implement `MediaPlaying` with source selection and controls": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673778
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224139375
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224745537
+      }
+    ],
+    "11.1 Implement the `DownloadManager` actor with sequential queue and resume": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673804
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224140354
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224747974
+      }
+    ],
+    "12.1 Implement `LocalLibrary` over `LibraryStore`": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673830
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224141585
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224773291
+      }
+    ],
+    "13.1 Implement `SettingsControlling` with sync, read/write, and lock": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673855
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224142551
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224775835
+      }
+    ],
+    "14. Checkpoint - all subsystems validated": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673880
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224783083
+      }
+    ],
+    "15.1 Implement connection, live preview, and media browser view models": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673905
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224784466
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791272949008
+      }
+    ],
+    "15.2 Implement player, download, local library, and settings view models": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673931
+      },
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224785425
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791272957118
+      }
+    ],
+    "16.1 Implement connection, live preview, and media browser views": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673963
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791272963670
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791274177243
+      }
+    ],
+    "16.2 Implement player, download/queue, local library, and settings views": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219673988
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791272964589
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791274178108
+      }
+    ],
+    "16.3 Compose the app entry point and dependency wiring": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219674031
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791272965564
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791274179194
+      }
+    ],
+    "17. Final checkpoint - full app wired and tests passing": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791219674056
+      },
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791274186492
+      }
+    ],
+    "1. Set up project structure, dependencies, and core data models": [
+      {
+        "executionId": "2a06f833-fc06-4d4f-97f0-062d94d8092f",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791220833488
+      }
+    ],
+    "2. Implement pure formatting, ordering, and filtering logic with property tests": [
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221103644
+      }
+    ],
+    "3. Implement pure decision/arithmetic logic with property tests": [
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221333637
+      }
+    ],
+    "6. Implement the persistence layer (`LibraryStore` / GRDB)": [
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791221631686
+      }
+    ],
+    "5. Implement the Camera Communication Layer with a mockable adapter": [
+      {
+        "executionId": "b4c8f780-37e5-4394-9621-0bcb941b03a5",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791222680941
+      }
+    ],
+    "7. Implement `Connection_Manager`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224129274
+      }
+    ],
+    "8. Implement `Live_Preview`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224740451
+      }
+    ],
+    "9. Implement `Media_Browser`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224742845
+      }
+    ],
+    "10. Implement `Media_Player`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224745571
+      }
+    ],
+    "11. Implement `Download_Manager`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224748004
+      }
+    ],
+    "12. Implement `Local_Library`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224773346
+      }
+    ],
+    "13. Implement `Settings_Controller`": [
+      {
+        "executionId": "cd3e7525-ac3e-4785-a75a-74101b312d77",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791224775872
+      }
+    ],
+    "15. Implement view models (MVVM) wired to Connection_State": [
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791272957170
+      }
+    ],
+    "16. Implement SwiftUI views and wire the app together": [
+      {
+        "executionId": "bcbec2a2-b9ee-4b23-938f-5162a7486837",
+        "chatSessionId": "sess_525cc5f1-0477-4fa2-8a3c-06eb8749c909",
+        "timestamp": 1791274179225
+      }
+    ]
+  }
+}
