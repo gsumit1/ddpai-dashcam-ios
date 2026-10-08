@@ -1,8 +1,19 @@
 .DS_Store
 /.build
 /Packages
-xcuserdata/
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
 .swiftpm/
 Package.resolved
+
+# Xcode user-specific state (never commit)
+xcuserdata/
+*.xcuserstate
+
+# Committed Xcode project (generated from project.yml via XcodeGen).
+# Commit the project structure and the shared workspace, but exclude
+# user-specific data so the repo stays clean and open-and-run works.
+!*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/project.xcworkspace/
+!*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/

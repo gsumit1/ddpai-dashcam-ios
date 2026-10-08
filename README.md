@@ -6,9 +6,33 @@ Wi-Fi hotspot.
 
 Spec: `.kiro/specs/ddpai-dashcam-ios/` (requirements.md, design.md, tasks.md).
 
+## Running the app (iPhone simulator)
+
+The feature code is a Swift Package (library). To run on the simulator there is
+a thin iOS **app target** that hosts it, defined by `project.yml` and generated
+into `DDPAIDashcam.xcodeproj` with [XcodeGen](https://github.com/yonaskolb/XcodeGen).
+The generated project is committed, so on a Mac with Xcode you can just:
+
+```sh
+open DDPAIDashcam.xcodeproj
+```
+
+Then pick an **iPhone simulator** destination and press **Run (⌘R)**. The app
+target is `DDPAIDashcam` and its entry point is `App/DashcamHostApp.swift`, which
+boots the package's `DependencyContainer` and shows the `RootView` tab shell.
+
+### Regenerating the project
+
+If you change `project.yml` (or add files under `App/`), regenerate with:
+
+```sh
+brew install xcodegen   # once
+xcodegen generate
+```
+
 ## Technology stack
 
-- Swift 5.9+ (toolchain here is Swift 6.3)
+- Swift 5.9+ (requires Xcode 15 or newer)
 - SwiftUI, MVVM + unidirectional state
 - Swift Concurrency (async/await, actors, `AsyncStream`)
 - `URLSession` (HTTP, ranged GET), `AVFoundation` (live/clip playback),
@@ -18,13 +42,12 @@ Spec: `.kiro/specs/ddpai-dashcam-ios/` (requirements.md, design.md, tasks.md).
 
 ## Project layout
 
-This is a Swift Package (`Package.swift`) that opens directly in Xcode and
-builds from the command line. The feature code lives in a library target so the
-pure logic, subsystems, and view models are testable without a device; the iOS
-`@main` app shell is layered on top in a later task.
-
 ```
-Package.swift
+Package.swift            Swift package manifest (the DDPAIDashcam library)
+project.yml              XcodeGen spec for the iOS app target
+DDPAIDashcam.xcodeproj   generated Xcode project (open this to run)
+App/
+  DashcamHostApp.swift   iOS app @main entry point (hosts the library UI)
 Sources/DDPAIDashcam/
   Models/        domain value types (no I/O)
   CameraComm/    Camera Communication Layer (DDPAI wire details isolated)
@@ -41,16 +64,13 @@ Tests/
 The shared `Connection_State` owned by `Connection_Manager` is the single source
 of truth every subsystem observes.
 
-## Building and testing
+## Building and testing from the command line
 
 ```sh
 swift build          # builds the DDPAIDashcam library + GRDB
-swift test           # runs the XCTest + SwiftCheck test targets
+swift test           # runs the XCTest + SwiftCheck test targets (needs full Xcode)
 ```
 
-Note on this environment: only the Command Line Tools are installed
-(`xcode-select -p` → `/Library/Developer/CommandLineTools`), which does not ship
-the `XCTest` framework. `swift build` succeeds (library + GRDB), but `swift test`
-and the SwiftCheck target require a full Xcode installation to supply `XCTest`.
-Running the test targets needs Xcode.app selected via
-`sudo xcode-select -s /Applications/Xcode.app` (or an Xcode CI runner).
+`swift build` works with the Command Line Tools alone. `swift test` and the
+SwiftCheck target require a full Xcode installation (for `XCTest`); select it
+with `sudo xcode-select -s /Applications/Xcode.app`.
