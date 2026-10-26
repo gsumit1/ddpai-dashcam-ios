@@ -41,6 +41,8 @@ targets:
         INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
         SWIFT_VERSION: "5.9"
         TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
         # The camera is reached over its own Wi-Fi hotspot (local networking).
         INFOPLIST_KEY_NSLocalNetworkUsageDescription: "Used to discover and connect to your DDPAI dash camera over its Wi-Fi hotspot."
         INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription: "Used to save downloaded dash cam clips to your photo library."

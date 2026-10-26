@@ -388,11 +388,17 @@ public final class NWPathReachability: CameraReachability, @unchecked Sendable {
     ///   interface (e.g. `.wifi`, since the camera hotspot is Wi-Fi) count as
     ///   reachable. Defaults to `.wifi`.
     public init(requiredInterfaceType: NWInterface.InterfaceType? = .wifi) {
+        #if targetEnvironment(simulator)
+        // Simulator traffic uses the Mac's network interface, not an iOS Wi-Fi
+        // interface. Inspect any satisfied path instead of requiring `.wifi`.
+        self.monitor = NWPathMonitor()
+        #else
         if let type = requiredInterfaceType {
             self.monitor = NWPathMonitor(requiredInterfaceType: type)
         } else {
             self.monitor = NWPathMonitor()
         }
+        #endif
         self.queue = DispatchQueue(label: "com.ddpai.reachability")
         monitor.pathUpdateHandler = { [weak self] path in
             self?.setCurrentPath(path)
