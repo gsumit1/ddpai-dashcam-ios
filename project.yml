@@ -11,17 +11,18 @@ packages:
     path: .
 
 schemes:
-  DDPAIDashcam:
+  DDPAIDashcamApp:
     build:
       targets:
-        DDPAIDashcam: all
+        DDPAIDashcamApp: all
     run:
       config: Debug
 
 targets:
-  DDPAIDashcam:
+  DDPAIDashcamApp:
     type: application
     platform: iOS
+    productName: DDPAIDashcamApp
     deploymentTarget: "16.0"
     sources:
       - path: App
