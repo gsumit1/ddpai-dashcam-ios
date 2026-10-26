@@ -10,6 +10,14 @@ packages:
     # The feature code lives in the local Swift package at the repo root.
     path: .
 
+schemes:
+  DDPAIDashcam:
+    build:
+      targets:
+        DDPAIDashcam: all
+    run:
+      config: Debug
+
 targets:
   DDPAIDashcam:
     type: application
