@@ -1,7 +1,7 @@
 # DDPAI Dash Cam Companion (iOS)
 
 Native iOS companion app for DDPAI dash cameras: live preview, playback/download
-of recorded footage, and remote control of camera settings over the camera's
+of recorded footage, and remote control of camera settings over the camera
 Wi-Fi hotspot.
 
 Spec: `.kiro/specs/ddpai-dashcam-ios/` (requirements.md, design.md, tasks.md).
